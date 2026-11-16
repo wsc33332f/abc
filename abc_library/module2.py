@@ -1,0 +1,9 @@
+"""Additional arithmetic helpers."""
+
+
+def subtract(a, b):
+    """Return the difference between two numbers."""
+    return a - b
+
+
+__all__ = ["subtract"]

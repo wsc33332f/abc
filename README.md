@@ -1,17 +1,20 @@
 # abc
 
-A minimal Python library scaffold for experimentation and extension.
+A small Python library for basic arithmetic helpers.
 
-## Project layout
-- `src/abc_lib/` contains the library package.
-- `tests/` contains behavior tests.
-- `.github/copilot-instructions.md` contains repository-specific agent guidance.
-
-## Quick start
+## Installation
 
 ```bash
 python -m pip install -e .
-python -c "from abc_lib import format_message; print(format_message('Ada'))"
+```
+
+## Usage
+
+```python
+from abc_library import add, subtract
+
+print(add(2, 3))       # 5
+print(subtract(5, 2))  # 3
 ```
 
 ## Validation

@@ -1,3 +1,9 @@
+"""Basic arithmetic helpers."""
+
+
 def add(a, b):
-    """Returns the sum of two numbers."""
+    """Return the sum of two numbers."""
     return a + b
+
+
+__all__ = ["add"]

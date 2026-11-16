@@ -1,11 +1,11 @@
 [build-system]
-requires = ["setuptools", "wheel"]
+requires = ["setuptools>=61", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "my-python-library"
+name = "abc-library"
 version = "0.1.0"
-authors = [{name = "hiksuey", email = "email@example.com"}]
+authors = [{name = "Hikauiro", email = "email@example.com"}]
 description = "A simple Python library"
 readme = "README.md"
 requires-python = ">=3.6"
