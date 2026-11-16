@@ -1,0 +1,39 @@
+Metadata-Version: 2.4
+Name: abc-library
+Version: 0.1.0
+Summary: A simple Python library
+Home-page: https://github.com/wsc33332f/abc
+Author: Hikauiro
+Author-email: Hikauiro <email@example.com>
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+
+# abc
+
+A small Python library for basic arithmetic helpers.
+
+## Installation
+
+```bash
+python -m pip install -e .
+```
+
+## Usage
+
+```python
+from abc_library import add, subtract
+
+print(add(2, 3))       # 5
+print(subtract(5, 2))  # 3
+```
+
+## Validation
+
+```bash
+python -m pytest -q
+```
